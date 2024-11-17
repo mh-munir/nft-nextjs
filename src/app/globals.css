@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .slick-dots li {
+    width: 40px !important;
+    height: 5px !important;
+    bottom: -40px !important;
+  }
+
+  .slick-dots li button:before {
+    width: 40px !important;
+    height: 5px !important;
+    opacity: 1 !important;
+    font-size: 0px !important;
+    background-color: white !important;
+  }
+  .slick-dots li.slick-active button:before {
+    background-color: blue !important;
+  }
+}
