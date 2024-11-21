@@ -225,8 +225,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="pb-24 overflow-x-hidden max-w-[95%] mx-auto -rotate-3">
-        <div className="max-w-7xl mx-auto mb-12">
+      <section className="pb-24 overflow-x-hidden max-w-[95%] mx-auto -rotate-2">
+        <div className="mb-12 ml-auto max-w-xl">
           <span className="text-sm text-white capitalize font-thin mb-5 inline-block">
             most loved NFTs of the time
           </span>
