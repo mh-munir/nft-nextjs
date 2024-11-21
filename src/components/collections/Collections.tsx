@@ -15,8 +15,8 @@ const Collections = () => {
     className: "center",
     centerMode: true,
     infinite: true,
-    centerPadding: "60px",
-    slidesToShow: 3,
+    centerPadding: "0",
+    slidesToShow: 4,
     speed: 500,
   };
   return (
@@ -32,9 +32,8 @@ const Collections = () => {
             />
           </div>
           <div className="ml-4 mr-4 mt-5">
-            <h4 className="text-lg font-medium text-white">
-              Our Nft Collection
-            </h4>
+            <h4 className="text-xl font-medium text-white">#Metaverse</h4>
+            <p className="text-slate-300 text-sm font-thin">By TheSalvare</p>
           </div>
         </div>
         <div>
@@ -47,9 +46,8 @@ const Collections = () => {
             />
           </div>
           <div className="ml-4 mr-4 mt-4">
-            <h4 className="text-lg font-medium text-white">
-              Our Nft Collection
-            </h4>
+            <h4 className="text-xl font-medium text-white">#Polly Doll</h4>
+            <p className="text-slate-300 text-sm font-thin">By TheNative</p>
           </div>
         </div>
         <div>
@@ -62,9 +60,64 @@ const Collections = () => {
             />
           </div>
           <div className="ml-4 mr-4 mt-4">
-            <h4 className="text-lg font-medium text-white">
-              Our Nft Collection
-            </h4>
+            <h4 className="text-xl font-medium text-white">#Alec Art</h4>
+            <p className="text-slate-300 text-sm font-thin">By GeorgZvic</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative ml-4 mr-4">
+            <div className="bg-gradient-to-r from-slate-800 to-blue-950 absolute w-full h-[70%] left-0 bottom-0 -z-10"></div>
+            <Image
+              className="w-full max-h-[500px] object-cover object-top"
+              src={Collection3}
+              alt="Nft Collection"
+            />
+          </div>
+          <div className="ml-4 mr-4 mt-4">
+            <h4 className="text-xl font-medium text-white">#Toxic Poeth</h4>
+            <p className="text-slate-300 text-sm font-thin">By YazoiLup</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative ml-4 mr-4">
+            <div className="bg-gradient-to-r from-slate-800 to-blue-950 absolute w-full h-[70%] left-0 bottom-0 -z-10"></div>
+            <Image
+              className="w-full max-h-[500px] object-cover object-top"
+              src={Collection4}
+              alt="Nft Collection"
+            />
+          </div>
+          <div className="ml-4 mr-4 mt-4">
+            <h4 className="text-xl font-medium text-white">#Toxic Poeth</h4>
+            <p className="text-slate-300 text-sm font-thin">By YazoiLup</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative ml-4 mr-4">
+            <div className="bg-gradient-to-r from-slate-800 to-blue-950 absolute w-full h-[70%] left-0 bottom-0 -z-10"></div>
+            <Image
+              className="w-full max-h-[500px] object-cover object-top"
+              src={Collection5}
+              alt="Nft Collection"
+            />
+          </div>
+          <div className="ml-4 mr-4 mt-4">
+            <h4 className="text-xl font-medium text-white">#Toxic Poeth</h4>
+            <p className="text-slate-300 text-sm font-thin">By YazoiLup</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative ml-4 mr-4">
+            <div className="bg-gradient-to-r from-slate-800 to-blue-950 absolute w-full h-[70%] left-0 bottom-0 -z-10"></div>
+            <Image
+              className="w-full max-h-[500px] object-cover object-top"
+              src={Collection6}
+              alt="Nft Collection"
+            />
+          </div>
+          <div className="ml-4 mr-4 mt-4">
+            <h4 className="text-xl font-medium text-white">#Toxic Poeth</h4>
+            <p className="text-slate-300 text-sm font-thin">By YazoiLup</p>
           </div>
         </div>
       </Slider>

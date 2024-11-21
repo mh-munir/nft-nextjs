@@ -14,6 +14,9 @@ import Pbrand4 from "@/img/wallet-04.png";
 import Pbrand5 from "@/img/wallet-05.png";
 import Divider from "@/img/divider.png";
 import Collections from "@/components/collections/Collections";
+import TrendingCollection from "@/components/collections/TrendingCollection";
+import TrendingCollectionrtl from "@/components/collections/TrendingCollectionrtl";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 export default function Home() {
   const settingsForBrand = {
@@ -106,7 +109,13 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div>
+          <div className="relative">
+            <DotLottieReact
+              className="absolute w-[400px] top-0 right-0"
+              src="https://lottie.host/d2a97f71-4af7-48f3-a63f-dbf525ef31ab/jXE3gp74pP.lottie"
+              loop
+              autoplay
+            />
             <Image
               className="max-w-[615px] ml-auto h-auto"
               src={HeroArt}
@@ -178,7 +187,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-24">
+      <section className="py-24 w-full">
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 gap-10 items-center">
           <div>
             <Image
@@ -216,7 +225,21 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section></section>
+      <section className="pb-24 overflow-x-hidden max-w-[95%] mx-auto -rotate-3">
+        <div className="max-w-7xl mx-auto mb-12">
+          <span className="text-sm text-white capitalize font-thin mb-5 inline-block">
+            most loved NFTs of the time
+          </span>
+          <h2 className="text-6xl font-bold text-white capitalize">
+            <span className="mr-2 bg-gradient-to-r from-blue-600 to-blue-200 bg-clip-text text-transparent">
+              Hot trending
+            </span>
+            nFTs
+          </h2>
+        </div>
+        <TrendingCollection />
+        <TrendingCollectionrtl />
+      </section>
     </main>
   );
 }
