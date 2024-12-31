@@ -14,9 +14,23 @@ import Pbrand4 from "@/img/wallet-04.png";
 import Pbrand5 from "@/img/wallet-05.png";
 import Divider from "@/img/divider.png";
 import Collections from "@/components/collections/Collections";
-import TrendingCollection from "@/components/collections/TrendingCollection";
-import TrendingCollectionrtl from "@/components/collections/TrendingCollectionrtl";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import TredingImage1 from "@/img/tc1.jpg";
+import TredingImage2 from "@/img/tc2.jpg";
+import TredingImage3 from "@/img/tc3.jpg";
+import TredingImage4 from "@/img/tc4.jpg";
+import TredingImage5 from "@/img/tc5.jpg";
+import TredingImage6 from "@/img/tc6.jpg";
+import TredingImage7 from "@/img/tc7.jpg";
+import TredingImage8 from "@/img/tc8.jpg";
+import avatar from "@/img/icons8-avatar.gif";
+import fire from "@/img/icons8-fire.gif";
+import Ethereum from "@/img/icons8-ethereum.svg";
+import HotCollection from "@/components/hotcollection/HotCollection";
+import Influencer1 from "@/img/influencer1.png";
+import Influencer2 from "@/img/influencer2.png";
+import Influencer3 from "@/img/influencer3.png";
+import InfLuencers from "@/components/influencers/influencers";
 
 export default function Home() {
   const settingsForBrand = {
@@ -44,15 +58,15 @@ export default function Home() {
               space on Opensea.
             </p>
             <Link
-              className="relative overflow-hidden inline-block bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-5 py-4 hover:bg-gradient-to-l duration-500 text-lg"
+              className="relative overflow-hidden inline-block bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-8 py-3 hover:bg-gradient-to-l duration-500 text-lg"
               href="/"
             >
               View in OPENSEA
               <span
                 className="w-0 h-0 
-                      border-t-[20px] border-t-transparent
-                      border-l-[20px] border-l-gray-900
-                      border-b-[20px] border-b-transparent -rotate-45 -right-2 -top-[15px] absolute"
+                      border-t-[14px] border-t-transparent
+                      border-l-[18px] border-l-gray-900
+                      border-b-[18px] border-b-transparent -rotate-45 -right-2 -top-[15px] absolute"
               ></span>
             </Link>
             <div className="grid grid-cols-3 gap-10 mt-10">
@@ -225,8 +239,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="pb-24 overflow-x-hidden max-w-[95%] mx-auto -rotate-2">
-        <div className="mb-12 ml-auto max-w-xl">
+      <section className="pb-24 overflow-x-hidden max-w-[95%] mx-auto">
+        <div className="text-left">
           <span className="text-sm text-white capitalize font-thin mb-5 inline-block">
             most loved NFTs of the time
           </span>
@@ -237,8 +251,243 @@ export default function Home() {
             nFTs
           </h2>
         </div>
-        <TrendingCollection />
-        <TrendingCollectionrtl />
+        <div className="text-right -top-14 relative">
+          <Link
+            className="relative overflow-hidden inline-block bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-14 py-3 hover:bg-gradient-to-l duration-500 text-lg"
+            href="/"
+          >
+            view all
+            <span
+              className="w-0 h-0 
+                  border-t-[14px] border-t-transparent
+                  border-l-[18px] border-l-gray-900
+                  border-b-[18px] border-b-transparent -rotate-45 -right-2 -top-[15px] absolute"
+            ></span>
+          </Link>
+        </div>
+        <div className="grid grid-cols-6 gap-5">
+          <HotCollection
+            CharImg={TredingImage1}
+            CharAlt="Our Hot Collection"
+            AvrSrc={avatar}
+            AvrAlt="Munir Hossain"
+            HotCollectionTitle="Moncky Charecter"
+            CreatorName="@Munir Hossain"
+            FireIcon={fire}
+            saleTitle="On Hot selling"
+            EthereumImg={Ethereum}
+            ETHNum={4.5}
+            HotCollectionPrice={10500000}
+          />
+          <HotCollection
+            CharImg={TredingImage2}
+            CharAlt="Our Hot Collection"
+            AvrSrc={avatar}
+            AvrAlt="Munir Hossain"
+            HotCollectionTitle="Moncky Charecter"
+            CreatorName="@Munir Hossain"
+            FireIcon={fire}
+            saleTitle="On Hot selling"
+            EthereumImg={Ethereum}
+            ETHNum={4.5}
+            HotCollectionPrice={10500000}
+          />
+          <HotCollection
+            CharImg={TredingImage3}
+            CharAlt="Our Hot Collection"
+            AvrSrc={avatar}
+            AvrAlt="Munir Hossain"
+            HotCollectionTitle="Moncky Charecter"
+            CreatorName="@Munir Hossain"
+            FireIcon={fire}
+            saleTitle="On Hot selling"
+            EthereumImg={Ethereum}
+            ETHNum={4.5}
+            HotCollectionPrice={10500000}
+          />
+          <HotCollection
+            CharImg={TredingImage4}
+            CharAlt="Our Hot Collection"
+            AvrSrc={avatar}
+            AvrAlt="Munir Hossain"
+            HotCollectionTitle="Moncky Charecter"
+            CreatorName="@Munir Hossain"
+            FireIcon={fire}
+            saleTitle="On Hot selling"
+            EthereumImg={Ethereum}
+            ETHNum={4.5}
+            HotCollectionPrice={10500000}
+          />
+          <HotCollection
+            CharImg={TredingImage5}
+            CharAlt="Our Hot Collection"
+            AvrSrc={avatar}
+            AvrAlt="Munir Hossain"
+            HotCollectionTitle="Moncky Charecter"
+            CreatorName="@Munir Hossain"
+            FireIcon={fire}
+            saleTitle="On Hot selling"
+            EthereumImg={Ethereum}
+            ETHNum={4.5}
+            HotCollectionPrice={10500000}
+          />
+          <HotCollection
+            CharImg={TredingImage6}
+            CharAlt="Our Hot Collection"
+            AvrSrc={avatar}
+            AvrAlt="Munir Hossain"
+            HotCollectionTitle="Moncky Charecter"
+            CreatorName="@Munir Hossain"
+            FireIcon={fire}
+            saleTitle="On Hot selling"
+            EthereumImg={Ethereum}
+            ETHNum={4.5}
+            HotCollectionPrice={10500000}
+          />
+          <HotCollection
+            CharImg={TredingImage7}
+            CharAlt="Our Hot Collection"
+            AvrSrc={avatar}
+            AvrAlt="Munir Hossain"
+            HotCollectionTitle="Moncky Charecter"
+            CreatorName="@Munir Hossain"
+            FireIcon={fire}
+            saleTitle="On Hot selling"
+            EthereumImg={Ethereum}
+            ETHNum={4.5}
+            HotCollectionPrice={10500000}
+          />
+          <HotCollection
+            CharImg={TredingImage8}
+            CharAlt="Our Hot Collection"
+            AvrSrc={avatar}
+            AvrAlt="Munir Hossain"
+            HotCollectionTitle="Moncky Charecter"
+            CreatorName="@Munir Hossain"
+            FireIcon={fire}
+            saleTitle="On Hot selling"
+            EthereumImg={Ethereum}
+            ETHNum={4.5}
+            HotCollectionPrice={10500000}
+          />
+          <HotCollection
+            CharImg={TredingImage1}
+            CharAlt="Our Hot Collection"
+            AvrSrc={avatar}
+            AvrAlt="Munir Hossain"
+            HotCollectionTitle="Moncky Charecter"
+            CreatorName="@Munir Hossain"
+            FireIcon={fire}
+            saleTitle="On Hot selling"
+            EthereumImg={Ethereum}
+            ETHNum={4.5}
+            HotCollectionPrice={10500000}
+          />
+          <HotCollection
+            CharImg={TredingImage2}
+            CharAlt="Our Hot Collection"
+            AvrSrc={avatar}
+            AvrAlt="Munir Hossain"
+            HotCollectionTitle="Moncky Charecter"
+            CreatorName="@Munir Hossain"
+            FireIcon={fire}
+            saleTitle="On Hot selling"
+            EthereumImg={Ethereum}
+            ETHNum={4.5}
+            HotCollectionPrice={10500000}
+          />
+          <HotCollection
+            CharImg={TredingImage3}
+            CharAlt="Our Hot Collection"
+            AvrSrc={avatar}
+            AvrAlt="Munir Hossain"
+            HotCollectionTitle="Moncky Charecter"
+            CreatorName="@Munir Hossain"
+            FireIcon={fire}
+            saleTitle="On Hot selling"
+            EthereumImg={Ethereum}
+            ETHNum={4.5}
+            HotCollectionPrice={10500000}
+          />
+          <HotCollection
+            CharImg={TredingImage4}
+            CharAlt="Our Hot Collection"
+            AvrSrc={avatar}
+            AvrAlt="Munir Hossain"
+            HotCollectionTitle="Moncky Charecter"
+            CreatorName="@Munir Hossain"
+            FireIcon={fire}
+            saleTitle="On Hot selling"
+            EthereumImg={Ethereum}
+            ETHNum={4.5}
+            HotCollectionPrice={10500000}
+          />
+        </div>
+      </section>
+      <section className="pb-24 overflow-x-hidden max-w-[95%] mx-auto">
+        <div className="text-left">
+          <span className="text-sm text-white capitalize font-thin mb-5 inline-block">
+            Watch and follow celebrities to get the best collection of NFTs
+          </span>
+          <h2 className="text-6xl font-bold text-white capitalize">
+            joined
+            <span className="ml-2 bg-gradient-to-r from-blue-600 to-blue-200 bg-clip-text text-transparent">
+              influencers
+            </span>
+          </h2>
+        </div>
+        <div className="text-right -top-14 relative">
+          <Link
+            className="relative overflow-hidden inline-block bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-14 py-3 hover:bg-gradient-to-l duration-500 text-lg"
+            href="/"
+          >
+            view all
+            <span
+              className="w-0 h-0 
+                  border-t-[14px] border-t-transparent
+                  border-l-[18px] border-l-gray-900
+                  border-b-[18px] border-b-transparent -rotate-45 -right-2 -top-[15px] absolute"
+            ></span>
+          </Link>
+        </div>
+        <div className="grid grid-cols-6 gap-5">
+          <InfLuencers 
+             infImage={TredingImage1} 
+             InfAvt={Influencer1}
+             InfAvtName={"Munir"}
+             InfAvtUser={"@Munir"} 
+          />
+            <InfLuencers 
+              infImage={TredingImage2} 
+              InfAvt={Influencer2}
+              InfAvtName={"Jamse"}
+              InfAvtUser={"@jamse"}
+            />
+            <InfLuencers 
+              infImage={TredingImage3} 
+              InfAvt={Influencer3}
+              InfAvtName={"Kavin"}
+              InfAvtUser={"@kavin"}
+            />
+            <InfLuencers 
+              infImage={TredingImage4} 
+              InfAvt={Influencer3}
+              InfAvtName={"Mollar"}
+              InfAvtUser={"@Mollar"}
+            />
+            <InfLuencers 
+              infImage={TredingImage5} 
+              InfAvt={Influencer3}
+              InfAvtName={"Jhone"}
+              InfAvtUser={"@Jhone"}
+            />
+            <InfLuencers 
+              infImage={TredingImage6} 
+              InfAvt={Influencer3}
+              InfAvtName={"Sane"}
+              InfAvtUser={"@Sane"}
+            />
+        </div>
       </section>
     </main>
   );
